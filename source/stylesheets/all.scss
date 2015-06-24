@@ -1,0 +1,116 @@
+
+@import "bootstrap";
+
+$dark_red: #7F1519;
+$red: #D0161B;
+$yellow: #FFCD05;
+// $light_blue: #69CCE2;
+
+body {
+  font: 14px 'helvetica neue', helvetica, sans-serif;
+}
+
+.br-widget {
+  margin: 15px 5px 5px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  box-shadow: 0 0 5px rgba(111,111,111, 0.75);
+}
+
+.br-form-heading {
+  position: relative;
+  margin: 0;
+  padding: 0 0 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.05;
+  color: $red;
+  span {
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 79px;
+    height: 73px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: transparent image-url('car-illustration.png') no-repeat 100% 0;
+  }
+}
+
+.form-label, .form-label-checkbox {
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.form-label-checkbox {
+  font-weight: 400;
+}
+
+.form-label-adjacent {
+  float: left;
+}
+
+.form-control-select {
+  font-size: 13px;
+  font-weight: 300;      
+  color: #aaa;
+}
+
+.form-fieldset {
+  padding: 8px 0;
+  border-top: 1px solid #ddd;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.btn-bestride {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  background-color: $red;
+  color: #fff;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  &:hover, &:focus, &:active {
+    background-color: $dark_red;
+    color: #fff;
+  }
+}
+
+.table-row {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table-row-auto {
+  table-layout: auto;
+}
+
+.table-cell {
+  display: table-cell;
+  width: auto;
+  vertical-align: middle;
+}
+
+.table-cell-label {
+  width: 80px;
+}
+
+.table-cell-right {
+  text-align: right;
+}
+

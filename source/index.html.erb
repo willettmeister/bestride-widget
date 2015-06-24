@@ -1,0 +1,117 @@
+---
+title: BestRide Widget
+---
+
+  <div class="br-widget">
+    <h3 class="br-form-heading">
+      <span>
+        Find Your
+      </span>
+      New Ride
+    </h3>
+    <form class="inline-form" id="" action="">
+      <fieldset class="form-fieldset">
+        <div class="table-row table-row-auto">
+          <div class="table-cell">
+            <label class="form-label form-label-checkbox">
+              <input class="" type="checkbox" />
+              New
+            </label>
+          </div>
+          <div class="table-cell">
+            <label class="form-label form-label-checkbox">
+              <input class="" type="checkbox" />
+              Used
+            </label>
+          </div>
+          <div class="table-cell">
+            <label class="form-label form-label-checkbox">
+              <input class="" type="checkbox" />
+              Certified Pre-Owned
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-fieldset">
+        <div class="table-row">
+          <div class="table-cell table-cell-label">
+            <label for="zip" class="form-label form-label-adjacent">
+              Zip
+            </label>
+          </div>
+          <div class="table-cell">
+            <input id="zip" name="zip" type="text" class="form-control" />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-fieldset">
+        <div class="table-row">
+          <div class="table-cell table-cell-label">
+            <label for="search-area" class="form-label form-label-adjacent">
+              Search Area
+            </label>
+          </div>
+          <div class="table-cell">
+            <select id="search-area" name="search-area" class="form-control form-control-select">
+              <option>
+                10 miles
+              </option>
+              <option>
+                One
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-fieldset">
+        <div class="table-row">
+          <div class="table-cell table-cell-label">
+            <label for="make" class="form-label form-label-adjacent">
+              Make
+            </label>
+          </div>
+          <div class="table-cell">
+            <select id="make" name="make" class="form-control form-control-select">
+              <option>
+                Choose Make
+              </option>
+              <option>
+                One
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-fieldset">
+        <div class="table-row">
+          <div class="table-cell table-cell-label">
+            <label for="model" class="form-label form-label-adjacent">
+              Model
+            </label>
+          </div>
+          <div class="table-cell">
+            <select id="model" name="model" class="form-control form-control-select">
+              <option>
+                Choose Model
+              </option>
+              <option>
+                One
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-fieldset">
+        <div class="table-row">
+          <div class="table-cell">
+            <button type="submit" class="btn btn-bestride">
+              Find It
+            </button>
+          </div>
+          <div class="table-cell table-cell-right">
+            <%= image_tag('br-logo-bw.png', :height => '35') %>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>

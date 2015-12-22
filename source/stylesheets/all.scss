@@ -7,41 +7,30 @@ $yellow: #FFCD05;
 // $light_blue: #69CCE2;
 
 body {
+  background-color: transparent;
   font: 14px 'helvetica neue', helvetica, sans-serif;
 }
 
 .br-widget {
   margin: 8px 3px 0;
-  padding: 12px;
-  border-radius: 5px;
-  background-color: #fbfbfb;
-  box-shadow: 0 0 5px rgba(111,111,111, 0.75);
+  padding: 4px 12px 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
 }
 
 .br-form-heading {
-  position: relative;
   margin: 0;
-  padding: 0 0 8px;
+  padding: 27px 0 10px;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.05;
+  background: transparent image-url('car-illustration.png') no-repeat 100% 0;
   color: $red;
   span {
     display: block;
     font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
-  }
-  &:after {
-    content: "";
-    display: block;
-    width: 79px;
-    height: 73px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 2;
-    background: transparent image-url('car-illustration.png') no-repeat 100% 0;
   }
 }
 
